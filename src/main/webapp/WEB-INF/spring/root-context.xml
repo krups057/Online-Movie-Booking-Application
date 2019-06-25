@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<bean id="accountValidator" class="com.me.moviesapp.validators.AccountValidator"></bean>
+	<bean id="accountDao" class="com.me.moviesapp.dao.AccountDAO" ></bean>
+	
+	<bean id="genreValidator" class="com.me.moviesapp.validators.GenreValidator"></bean>
+	<bean id="genreDao" class="com.me.moviesapp.dao.GenreDAO" ></bean>
+	
+	<bean id="movieValidator" class="com.me.moviesapp.validators.MovieValidator"></bean>
+	<bean id="movieDao" class="com.me.moviesapp.dao.MovieDAO" ></bean>
+	
+	<bean id="cartDao" class="com.me.moviesapp.dao.CartDAO" ></bean>
+	
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!-- one of the properties available; the maximum file size in bytes -->
+		<property name="maxUploadSize" value="5000000" />
+	</bean>	
+</beans>
