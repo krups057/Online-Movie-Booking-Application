@@ -1,13 +1,13 @@
 # Online-Movie-Booking-Application
 
 
-SHORT SUMMARY OF THE PROJECT:
+# SHORT SUMMARY OF THE PROJECT:
 The project is an online movie booking where a person/customer is able to go online and book a ticket for the movies listed in the movie list.
 
-SUMMARY OF THE FUNCTIONALITY PERFORMED:
+# SUMMARY OF THE FUNCTIONALITY PERFORMED:
 The summary of the functionality performed includes the customer signing in using their credentials and booking a movie from the list of movies available. The producer logs in using their credential and adds the movie with respective details. At the end the user is given a PDF of the tickets booked so that he/she can take a print out of the copy and watch the movie.
 
-SUMMARY OF THE TECHNOLOGIES USED:
+# SUMMARY OF THE TECHNOLOGIES USED:
 •	SPRING MVC FRAMEWORK
 •	HIBERNATE for mapping and data storage.
 •	MYSQL DATABASE for storing the data.
@@ -15,9 +15,10 @@ SUMMARY OF THE TECHNOLOGIES USED:
 •	INTERCEPTORS to intercept the request and filter it before and after reaching,leaving  the servlets
 •	PDF View to display the tickets for the customer to print.
 •	Simple Mail Transfer Protocol for sending email to the registered users.
-DESCRIPTION OF ROLES AND TASKS EACH ROLE COULD PERFORM:
+
+# DESCRIPTION OF ROLES AND TASKS EACH ROLE COULD PERFORM:
 There are two roles in my application and they are Producer and Customer.
-PRODUCER:
+# PRODUCER:
 The producer acts like an admin role. The user enters the login details and goes into the producer homepage where he/she can perform three tasks:
 •	ADD A GENRE
 Here the producer will be able to add a genre depending on his/her choice.
@@ -26,7 +27,7 @@ Here the producer will be able to add the movie by selecting the appropriate gen
 •	VIEW ALL THE MOVIES
 Here the producer will be able to view all the movies they have created.
 
-CUSTOMER:
+# CUSTOMER:
 The customer role includes searching for the movies and booking it. 
 Two important roles include:
 •	VIEW THE MOVIE
